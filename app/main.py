@@ -8,4 +8,4 @@ app.include_router(routes.router, prefix="/produtor-rural", tags=["Produtores"])
 
 @app.get("/")
 def read_root():
-    return {"message": "API com arquitetura limpa funcionando!"}
+    return {"message": "API de produtores rurais!"}
